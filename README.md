@@ -4,9 +4,6 @@ Sistema de cadastro de usuários com interface moderna, layout compacto e fluxo 
 
 ## Preview do sistema
 
-### Tela inicial
-
-![Tela inicial do CRUD de usuários](docs/screenshots/crud-usuarios-home.png)
 
 ### Adicionar usuário
 
