@@ -1,10 +1,24 @@
 # CRUD de Usuários React
 
-Sistema de cadastro de usuários com interface moderna, layout compacto e fluxo de CRUD completo.
+Sistema de cadastro de usuários com interface moderna, layout compacto e fluxo completo de CRUD.
 
-## Preview
+## Preview do sistema
+
+### Tela inicial
 
 ![Tela inicial do CRUD de usuários](docs/screenshots/crud-usuarios-home.png)
+
+### Adicionar usuário
+
+![Modal de cadastro de usuário](docs/screenshots/crud-usuarios-adicionar.png)
+
+### Editar usuário
+
+![Modal de edição de usuário](docs/screenshots/crud-usuarios-editar.png)
+
+### Excluir usuário
+
+![Confirmação de exclusão](docs/screenshots/crud-usuarios-excluir.png)
 
 ## Funcionalidades
 
