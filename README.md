@@ -1,16 +1,62 @@
-# React + Vite
+# CRUD de Usuários React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema de cadastro de usuários com interface moderna, layout compacto e fluxo de CRUD completo.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Tela inicial do CRUD de usuários](docs/screenshots/crud-usuarios-home.png)
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Cadastro de novos usuários
+- Edição em modal centralizado
+- Exclusão com confirmação
+- Contador de usuários com regra de singular e plural
+- Layout responsivo e visual em tons escuros com destaque em roxo/ciano
+- Animações suaves e feedback visual para ações
 
-## Expanding the ESLint configuration
+## Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript
+- CSS moderno
+
+## Como executar localmente
+
+1. Clone o repositório
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+3. Inicie o projeto:
+
+```bash
+npm run dev
+```
+
+4. Acesse a aplicação no navegador:
+
+```bash
+http://localhost:5173
+```
+
+## Build para produção
+
+```bash
+npm run build
+```
+
+## Estrutura do projeto
+
+```bash
+src/
+  App.jsx
+  App.css
+  index.css
+  main.jsx
+```
+
+Este projeto foi desenvolvido como uma demonstração de CRUD funcional em React, com foco em usabilidade, simplicidade visual e experiência de usuário.
